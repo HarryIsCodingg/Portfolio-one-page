@@ -1,8 +1,112 @@
-.body-wrapper {
-  background: #282C33;
-  height: 100vh;
-  width: 100vw;
+.one-page-layout {
+  min-height: 100vh;
+  background: #282c33;
   color: white;
-  font-family: "Fira Code",monospace;
+  font-family: 'Fira Code', monospace;
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+.left-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 320px;
+  height: 100vh;
+  border-right: 1px solid #3d4147;
+  padding: 28px 20px;
+  background: #21252b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.profile-details h1 {
+  font-size: 24px;
+  margin: 14px 0;
+}
+
+.profile-details p {
+  color: var(--grey-color);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.sidebar-avatar {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  object-fit: cover;
+}
+
+.sidebar-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar-link:hover {
+  color: var(--primary-color);
+}
+
+.right-content {
+  margin-left: 320px;
   overflow-x: hidden;
+}
+
+.right-content section {
+  scroll-margin-top: 16px;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile-menu-button {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 1200;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    background: #21252b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidebar-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1050;
+  }
+
+  .left-sidebar {
+    width: min(320px, 80vw);
+    transform: translateX(-100%);
+    transition: transform 0.25s ease-in-out;
+    z-index: 1100;
+  }
+
+  .left-sidebar.open {
+    transform: translateX(0);
+  }
+
+  .right-content {
+    margin-left: 0;
+  }
 }

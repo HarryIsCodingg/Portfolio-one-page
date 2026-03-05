@@ -1,15 +1,7 @@
 import './HomePage.css';
 import LandingImage from '../../assets/images/avatar.png';
-import {useNavigate} from "react-router-dom";
 
 const HomePage = () => {
-
-    const navigateTo = useNavigate();
-
-    const goToContactPage = () => {
-        navigateTo('/contact');
-    }
-
     return (
         <div className='home-page'>
             <div className='landing-page-wrapper'>
@@ -20,7 +12,7 @@ const HomePage = () => {
                     <span className='short-description-sub'>
                         I crafts responsive websites where technologies meet creativity
                     </span>
-                    <div className='contact-button' onClick={goToContactPage}>Contact me !</div>
+                    <a href='#contacts' className='contact-button link'>Contact me !</a>
                 </div>
                 <div className='right-column'>
                     <img src={LandingImage} alt="landing" className="responsive-image" />
