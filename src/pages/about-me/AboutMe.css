@@ -1,7 +1,3 @@
-.about-me-wrapper{
-    padding: 54px;
-}
-
 .description-text {
     display: flex;
     flex-direction: column;
@@ -34,7 +30,15 @@
     position: relative;
     top: -200px;
     height: 600px;
-    max-width: 1200px;
+    max-width: 100%;
+}
+
+.french-certificate {
+   max-width: 100%;
+}
+
+.about-me-wrapper {
+  margin-top: 60px;
 }
 
 @media only screen and (max-width: 480px){
@@ -42,7 +46,6 @@
         display: none;
     }
     .about-me-wrapper {
-        padding: 16px;
         margin-top: 30px;
     }
 
@@ -57,7 +60,6 @@
     .certificate-image, .french-certificate{
         margin-top: 20px;
         height: 300px;
-        max-width: 350px;
         position: relative;
         top: 0;
     }

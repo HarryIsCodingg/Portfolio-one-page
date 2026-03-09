@@ -1,5 +1,9 @@
 .work-page-wrapper {
-    padding: 54px;
+    margin-top: 60px;
+}
+
+.app-wrapper {
+    margin-top: 32px;
 }
 
 .app-container {
@@ -11,7 +15,6 @@
 
 @media only screen and (max-width: 480px) {
     .work-page-wrapper {
-        padding: 16px;
         margin-top: 40px;
     }
 

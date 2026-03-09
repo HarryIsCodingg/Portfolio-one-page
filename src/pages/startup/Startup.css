@@ -1,5 +1,5 @@
 .startup-wrapper {
-    padding: 54px;
+    margin-top: 60px;
 }
 
 .startup-image {
@@ -28,10 +28,6 @@
 }
 
 @media screen and (max-width: 480px){
-    .startup-wrapper {
-        padding: 16px;
-    }
-
     .startup-image {
         height: 200px;
         object-fit: fill;

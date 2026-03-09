@@ -8,7 +8,6 @@
 .landing-page-wrapper {
     display: flex;
     margin-top: 62px;
-    padding: 24px;
     justify-content: space-around;
 }
 
@@ -21,6 +20,12 @@
 .responsive-image {
     max-width: 800px;
     height: auto;
+}
+
+.short-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .short-description-text {
@@ -77,7 +82,6 @@
 
     .landing-page-wrapper {
         flex-direction: column;
-        padding: 20px;
         margin-top: 20px;
     }
 

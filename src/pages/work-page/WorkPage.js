@@ -24,9 +24,10 @@ const WorkPage = () => {
     return (
         <div className='work-page-wrapper'>
             <div className='font-size-large'><span className='primary-color'>/</span>projects</div>
-            <div style={{marginTop: '14px', fontSize: '16px'}}>List of my projects</div>
-            <div style={{marginTop: '68px', marginBottom: '48px'}} className='font-size-large'><span className='primary-color'>#</span>apps</div>
-            <div className='app-container'>
+            <div>List of my projects</div>
+            <div className='app-wrapper'>
+              <div className='font-size-large'><span className='primary-color'>#</span>apps</div>
+              <div className='app-container'>
                 <CompleteAppsCard image={vibeCheck} stackList={feedbackList} navigateTo='https://vibecheck-cc9h.onrender.com/'
                                   name='VibeCheck' description='Vision different vibes during event venue booking'/>
                 <CompleteAppsCard image={feedbackUiImage} stackList={feedbackList} navigateTo='https://feeback-ui.netlify.app/'
@@ -41,9 +42,12 @@ const WorkPage = () => {
                                   name='Edge Ledger' description='Platform to provide financial assistance'/>
                 <CompleteAppsCard image={petAdoption} stackList={petAdoptionList} navigateTo='https://users.encs.concordia.ca/~s_harin/Soen287/PetAdoption/home.php'
                                   name='Pet Adoption' description='Academic project for pet adoption'/>
+              </div>
             </div>
-            <div style={{marginTop: '68px', marginBottom: '48px'}} className='font-size-large'><span className='primary-color'>#</span>mini-apps</div>
-            <div className='app-container'>
+
+            <div className='app-wrapper'>
+              <div className='font-size-large'><span className='primary-color'>#</span>mini-apps</div>
+              <div className='app-container'>
                 <ShortApps language='java' name='Dining philosopher' description={diningPhilosopher}
                            navigateTo='https://github.com/HarryIsCodingg/Dining-Philosopher-Algorithm'/>
                 <ShortApps language='clojure' name='Sales menu' description={salesMenu}
@@ -51,6 +55,7 @@ const WorkPage = () => {
                 <ShortApps language='java' name='Snake and ladder' description='Game based upon snake and ladder board game'
                            navigateTo='https://github.com/HarryIsCodingg/SnakeAndLadder'/>
 
+              </div>
             </div>
         </div>
     )

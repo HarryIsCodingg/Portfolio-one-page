@@ -1,5 +1,5 @@
 .contact-page {
-    padding: 56px;
+    margin-top: 60px;
 }
 
 .contact-wrapper {
@@ -25,11 +25,7 @@
 }
 
 @media only screen and (max-width: 480px){
-    .contact-page {
-        padding: 16px;
-    }
-
-    .contact-wrapper {
+   .contact-wrapper {
         flex-direction: column;
     }
 }
