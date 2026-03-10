@@ -4,6 +4,8 @@ import SkillList from "./skills/SkillList";
 import designImage from '../../assets/images/design.png';
 import deanList from '../../assets/images/deanlist.png';
 import frenchCert from '../../assets/images/french.png';
+import awsDev from '../../assets/images/AWS-dev.png';
+import awsCPC from '../../assets/images/AWS-cpc.png';
 
 const AboutMe = () => {
     return (
@@ -29,8 +31,12 @@ const AboutMe = () => {
                     <div className='font-size-large margin-top'><span className='primary-color'>#</span>achievements</div>
                     <img src={designImage} alt='design' className='design-image'/>
                 </div>
+              <div className='images-container'>
+                <img src={awsDev} className='certificate-image' alt='certificate'/>
+                <img src={awsCPC} className='certificate-image' alt='certificate'/>
                 <img src={deanList} className='certificate-image' alt='certificate'/>
                 <img src={frenchCert} alt='french certificate' className='french-certificate'/>
+              </div>
             </div>
         </div>
     )
