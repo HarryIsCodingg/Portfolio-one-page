@@ -3,11 +3,14 @@ import aboutImage from '../../assets/images/about.png';
 import SkillList from "./skills/SkillList";
 import designImage from '../../assets/images/design.png';
 import deanList from '../../assets/images/deanlist.png';
+import awsCloudDevCert from '../../assets/images/aws-certified-developer-associate.png';
+import awsCloudPractCert from '../../assets/images/aws-certified-cloud-practitioner.png';
 import frenchCert from '../../assets/images/french.png';
-import awsDev from '../../assets/images/AWS-dev.png';
-import awsCPC from '../../assets/images/AWS-cpc.png';
 
 const AboutMe = () => {
+
+    const awsDevCertLink = 'https://www.credly.com/badges/300cd8d3-3e6e-432c-9e73-20ff8ff9485c';
+    const awsPractCertLink = 'https://www.credly.com/badges/a4c7f00d-45fe-49c8-b328-73f8d9c76632';
     return (
         <div className='about-me-wrapper'>
             <div className='font-size-large margin-top'><span className='primary-color'>/</span>about me</div>
@@ -27,13 +30,19 @@ const AboutMe = () => {
             <div className='font-size-large margin-top'><span className='primary-color'>#</span>skills</div>
             <SkillList />
             <div className='achievement-container'>
-                <div className='title-wrapper'>
-                    <div className='font-size-large margin-top'><span className='primary-color'>#</span>achievements</div>
-                    <img src={designImage} alt='design' className='design-image'/>
-                </div>
+              <div className='title-wrapper'>
+                <div className='font-size-large margin-top'><span className='primary-color'>#</span>certificates</div>
+                <img src={designImage} alt='design' className='design-image'/>
+              </div>
               <div className='images-container'>
-                <img src={awsDev} className='certificate-image' alt='certificate'/>
-                <img src={awsCPC} className='certificate-image' alt='certificate'/>
+                <div className='aws-image-wrapper'>
+                  <img src={awsCloudDevCert} className='aws-image' alt='certificate'/>
+                  <a className='aws-link-button' href={awsDevCertLink} target='_blank'>View Credentials</a>
+                </div>
+                <div className='aws-image-wrapper'>
+                  <img src={awsCloudPractCert} className='aws-image' alt='certificate'/>
+                  <a className='aws-link-button' href={awsPractCertLink} target='_blank'>View Credentials</a>
+                </div>
                 <img src={deanList} className='certificate-image' alt='certificate'/>
                 <img src={frenchCert} alt='french certificate' className='french-certificate'/>
               </div>

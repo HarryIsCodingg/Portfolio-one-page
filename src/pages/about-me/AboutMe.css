@@ -26,10 +26,44 @@
     justify-content: space-between;
 }
 
+.title-wrapper > div {
+  align-self: flex-end;
+  padding-bottom: 60px;
+}
+
 .images-container {
   display: flex;
   flex-direction: column;
   gap: 60px;
+}
+
+.aws-image-wrapper {
+  border: 1px solid var(--grey-color);
+  border-radius: 8px;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 32px;
+}
+
+.aws-image {
+  height: 400px;
+  max-width: 100%;
+}
+
+.aws-link-button {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.aws-link-button:hover {
+  background: var(--primary-color-hover);
 }
 
 .images-container > img {
@@ -41,10 +75,12 @@
     position: relative;
     height: 600px;
     max-width: 100%;
+    border-radius: 8px;
 }
 
 .french-certificate {
-   max-width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
 }
 
 .about-me-wrapper {
@@ -72,5 +108,13 @@
         height: 300px;
         position: relative;
         top: 0;
+    }
+
+    .aws-image-wrapper {
+        padding: 16px;
+    }
+
+    .aws-image-wrapper img {
+        height: 200px;
     }
 }
