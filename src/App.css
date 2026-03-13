@@ -7,7 +7,7 @@ body {
 
 .one-page-layout {
   min-height: 100vh;
-  background: #282c33;
+  background: black;
   color: white;
   font-family: 'Fira Code', monospace;
 }
@@ -116,5 +116,6 @@ body {
 
   .right-content {
     margin-left: 0;
+    padding: 20px;
   }
 }

@@ -3,7 +3,7 @@ import WorkExperienceCard from "./work-experience/WorkExperienceCard";
 
 const ExperienceList = () => {
   return (
-    <section>
+    <section className='flex flex-column gap-24'>
       {experiences.map((exp, index) => (
         <WorkExperienceCard key={index} {...exp} />
       ))}
