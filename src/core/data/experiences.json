@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Software Developer",
+    "company": "Intact Financial Corporation",
+    "location": "Montreal, QC",
+    "startDate": "May 2025",
+    "endDate": "Present",
+    "description": "",
+    "achievements": [],
+    "logo": "assets/images/intact-logo.png"
+  },
+  {
+    "title": "Software Developer Intern",
+    "company": "Ericsson",
+    "location": "Montreal, QC",
+    "startDate": "January 2025",
+    "endDate": "April 2025",
+    "description": "Worked on a Vulnerability Management Service that tracks vulnerabilities across internal products and generates alerts for security risks.",
+    "achievements": [
+      "Implemented new columns and enhancements in user reports to improve visibility of vulnerability data.",
+      "Developed backend fixes for automated alert answer validation and status updates.",
+      "Improved subscription management features including subscription removal workflows.",
+      "Enhanced alert processing logic to ensure rejected or invalid answers were handled correctly.",
+      "Fixed email redirection and recipient validation issues in the alert notification system.",
+      "Improved authentication mechanisms as part of the legacy authentication phase-out initiative.",
+      "Resolved multiple production bugs related to alert status management and confidential vulnerability handling."
+    ],
+    "logo": "assets/images/Ericsson-logo.png"
+  },
+  {
+    "title": "Software Developer Intern",
+    "company": "Intact Financial Corporation",
+    "location": "Montreal, QC",
+    "startDate": "May 2024",
+    "endDate": "August 2024",
+    "description": "",
+    "achievements": [
+      "Developed backend features using Spring Boot, reducing policy processing time by 10%.",
+      "Enhanced efficiency by creating multi-driver insurance quotes, streamlining workflows by 15%.",
+      "Led migration of core policy purchasing services to the latest Spring Boot version, eliminating 100% of security vulnerabilities.",
+      "Authored documentation enforcing backend best practices using ArchUnit for improved maintainability."
+    ],
+    "logo": "assets/images/intact-logo.png"
+  },
+  {
+    "title": "Software Developer Intern",
+    "company": "Intact Financial Corporation",
+    "location": "Montreal, QC",
+    "startDate": "January 2023",
+    "endDate": "August 2023",
+    "description": "",
+    "achievements": [
+      "Introduced functionality allowing clients to choose their prior insurer during online policy purchase.",
+      "Optimized Angular UI performance resulting in a 30% improvement in responsiveness.",
+      "Improved checkout page SEO achieving a 30% performance boost using Lighthouse audits.",
+      "Documented Spring Boot and trunk-based migrations to improve team productivity.",
+      "Created onboarding documentation reducing debugging time by 25% and onboarding time by 30%."
+    ],
+    "logo": "assets/images/intact-logo.png"
+  }
+]

@@ -6,6 +6,7 @@ import deanList from '../../assets/images/deanlist.png';
 import awsCloudDevCert from '../../assets/images/aws-certified-developer-associate.png';
 import awsCloudPractCert from '../../assets/images/aws-certified-cloud-practitioner.png';
 import frenchCert from '../../assets/images/french.png';
+import ExperienceList from "./work-experience-list/ExperienceList";
 
 const AboutMe = () => {
 
@@ -27,6 +28,7 @@ const AboutMe = () => {
                 </div>
                 <img src={aboutImage} alt='about' className='about-image'/>
             </div>
+            <ExperienceList />
             <div className='font-size-large margin-top'><span className='primary-color'>#</span>skills</div>
             <SkillList />
             <div className='achievement-container'>
