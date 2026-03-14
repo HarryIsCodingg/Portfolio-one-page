@@ -1,12 +1,12 @@
 import './AboutMe.css';
 import aboutImage from '../../assets/images/about.png';
-import SkillList from "./skills/SkillList";
 import designImage from '../../assets/images/design.png';
 import deanList from '../../assets/images/deanlist.png';
 import awsCloudDevCert from '../../assets/images/aws-certified-developer-associate.png';
 import awsCloudPractCert from '../../assets/images/aws-certified-cloud-practitioner.png';
 import frenchCert from '../../assets/images/french.png';
 import ExperienceList from "./work-experience-list/ExperienceList";
+import SkillsSection from "./skills/SkillsSection";
 
 const AboutMe = () => {
 
@@ -30,7 +30,7 @@ const AboutMe = () => {
             </div>
             <ExperienceList />
             <div className='font-size-large margin-top'><span className='primary-color'>#</span>skills</div>
-            <SkillList />
+            <SkillsSection />
             <div className='achievement-container'>
               <div className='title-wrapper'>
                 <div className='font-size-large margin-top'><span className='primary-color'>#</span>certificates</div>

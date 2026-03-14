@@ -1,0 +1,99 @@
+[
+  {
+    "id": "languages",
+    "title": "Languages",
+    "symbol": "</>",
+    "items": [
+      { "name": "Java", "icon": "java" },
+      { "name": "TypeScript", "icon": "typescript" },
+      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "Clojure", "icon": "clojure" }
+    ]
+  },
+  {
+    "id": "frontend",
+    "title": "Frontend",
+    "symbol": "◫",
+    "items": [
+      { "name": "React", "icon": "react" },
+      { "name": "Next.js", "icon": "nextjs2" },
+      { "name": "Angular", "icon": "angular17" },
+      { "name": "Redux", "icon": "redux" },
+      { "name": "HTML", "icon": "html5" },
+      { "name": "CSS", "icon": "css3" }
+    ]
+  },
+  {
+    "id": "backend",
+    "title": "Backend",
+    "symbol": "▣",
+    "items": [
+      { "name": "Spring Boot", "icon": "spring" },
+      { "name": "Node.js", "icon": "nodejs" },
+      { "name": "REST API", "icon": "postman" },
+      { "name": "GraphQL", "icon": "graphql" },
+      { "name": "Apigee", "icon": "googlecloud" }
+    ]
+  },
+  {
+    "id": "databases",
+    "title": "Databases",
+    "symbol": "◬",
+    "items": [
+      { "name": "MongoDB", "icon": "mongodb" },
+      { "name": "MySQL", "icon": "mysql" },
+      { "name": "Firebase", "icon": "firebase" }
+    ]
+  },
+  {
+    "id": "cloud-devops",
+    "title": "Cloud / DevOps",
+    "symbol": "☁",
+    "items": [
+      { "name": "AWS Cloud", "icon": "aws" },
+      { "name": "Azure", "icon": "azure" },
+      { "name": "Docker", "icon": "docker" },
+      { "name": "Kubernetes", "icon": "kubernetes" },
+      { "name": "Terraform", "icon": "terraform" },
+      { "name": "Argo CD", "icon": "argo" },
+      { "name": "OpenShift", "icon": "redhat" },
+      { "name": "GitHub Actions", "icon": "github" },
+      { "name": "Jenkins", "icon": "jenkins" },
+      { "name": "OCP", "icon": "redhat" }
+    ]
+  },
+  {
+    "id": "testing-quality",
+    "title": "Testing / Quality",
+    "symbol": "✓",
+    "items": [
+      { "name": "JUnit 5", "icon": "junit" },
+      { "name": "ArchUnit", "icon": "java" },
+      { "name": "Jest", "icon": "jest" },
+      { "name": "Glowroot", "icon": "" }
+    ]
+  },
+  {
+    "id": "developer-tools",
+    "title": "Developer Tools",
+    "symbol": "⌘",
+    "items": [
+      { "name": "Git", "icon": "git" },
+      { "name": "Postman", "icon": "postman" },
+      { "name": "Kafka", "icon": "apachekafka" },
+      { "name": "Linux", "icon": "linux" },
+      { "name": "VS Code", "icon": "vscode" },
+      { "name": "IntelliJ", "icon": "intellijidea" },
+      { "name": "Figma", "icon": "figma" },
+      { "name": "Jira", "icon": "jira" }
+    ]
+  },
+  {
+    "id": "enterprise-security",
+    "title": "Enterprise / Security",
+    "symbol": "◈",
+    "items": [
+      { "name": "IBM ISAM", "icon": "ibm" }
+    ]
+  }
+]
