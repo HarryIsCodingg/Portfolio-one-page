@@ -6,7 +6,7 @@
     "items": [
       { "name": "Java", "icon": "java" },
       { "name": "TypeScript", "icon": "typescript" },
-      { "name": "JavaScript", "icon": "javascript" },
+      { "name": "JavaScript", "icon": "js" },
       { "name": "Clojure", "icon": "clojure" }
     ]
   },
