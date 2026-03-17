@@ -12,7 +12,7 @@
 .experience-logo {
   width: 180px;
   height: 90px;
-  object-fit: cover;
+  object-fit: contain;
   padding: 10px;
   border-radius: 18px;
 
@@ -99,6 +99,12 @@
   .experience-meta {
     text-align: left;
   }
+
+  .experience-logo {
+    width: 140px;
+    height: 60px;
+  }
+
 }
 
 @media (max-width: 480px) {
