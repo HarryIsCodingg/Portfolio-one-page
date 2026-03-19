@@ -19,7 +19,9 @@ export default function ProjectShowcaseCard({
     <div className={`project-showcase-card ${className}`.trim()}>
       <div className="project-showcase-media">
         {image && <img src={image} alt={imageAlt || title} className="project-showcase-image" />}
+      </div>
 
+      <div className="project-showcase-content">
         {tags.length > 0 && (
           <div className="project-showcase-tags">
             {tags.map((tag) => (
@@ -29,9 +31,6 @@ export default function ProjectShowcaseCard({
             ))}
           </div>
         )}
-      </div>
-
-      <div className="project-showcase-content">
         <h3 className="project-showcase-title">{title}</h3>
         <p className="project-showcase-description">{description}</p>
 
