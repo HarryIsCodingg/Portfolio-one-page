@@ -15,6 +15,7 @@ dist/
 
 # Visual Studio Code settings
 .vscode/
+.idea/
 
 # macOS system files
 .DS_Store
